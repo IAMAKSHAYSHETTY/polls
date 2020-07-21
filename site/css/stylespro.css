@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+
+
+}
+#navmenu
+{
+  position: relative;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand 
+{	
+
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+  padding: 0 10px;
+  float: right;
+  text-align: left;
+}
+#navmenu ul li a:hover
+{
+  color : white!important;
+}
+.navbar
+{
+  background:#82589F;
+}
+.navbar-toggler
+{
+  border:none !important;
+}
+.nav-link
+{
+  color: black !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+#navmenu .navbar .navbar-brand
+{
+	color: white;
+	font-weight: 600;
+}
+.container
+{ 
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+#bg
+{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -1;
+}
+.box
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 40px;
+  display: block;
+  border: 1px solid;
+  box-shadow: 20px 20px 20px;
+  border-radius: 24px;
+
+}
+.box h1
+{
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+  text-shadow:2px 2px black;
+  font-family: 'Montserrat', sans-serif;
+}
+.box input[placeholder="Akshay Shetty"]
+{
+  border-radius: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: linear-gradient(90deg,#82589F,#D6A2E8);
+  text-align: center;
+}
+.box input[placeholder="123@gmail.com"]
+{
+  border-radius: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: linear-gradient(90deg,#82589F,#D6A2E8);
+  text-align: center;
+}
+.box input[placeholder="Karnataka"]
+{
+  border-radius: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: linear-gradient(90deg,#82589F,#D6A2E8);
+  text-align: center;
+}
+.box input[placeholder="Mangaluru"]
+{
+  border-radius: 24px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background: linear-gradient(90deg,#82589F,#D6A2E8);
+  text-align: center;
+}
+.box h5
+{
+  color: blue;
+  text-align: center;
+}
+

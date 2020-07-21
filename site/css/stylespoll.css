@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+
+
+}
+#navmenu
+{
+  position: relative;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand 
+{	
+
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+  padding: 0 10px;
+  float: right;
+  text-align: left;
+}
+#navmenu ul li a:hover
+{
+  color : white!important;
+}
+.navbar
+{
+  background:#82589F;
+}
+.navbar-toggler
+{
+  border:none !important;
+}
+.nav-link
+{
+  color: black !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+#navmenu .navbar .navbar-brand
+{
+	color: white;
+	font-weight: 600;
+}
+#team
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: puple;
+}
+.container h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+.container h1 ::after
+{
+	content: '';
+	background:black ;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px ayto 5px;
+}
+.container-fluid
+{
+	border: none;
+	outline: none;
+
+}
+.profile-pic
+{
+	margin-top: 25px;
+	border: none;
+	outline: none;
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	border-radius: 50px;
+}
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}

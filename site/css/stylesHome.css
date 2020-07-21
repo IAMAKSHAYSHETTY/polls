@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+
+
+}
+#navmenu
+{
+  position: relative;
+  top:0;
+  z-index: 10;
+}
+.navbar-brand 
+{	
+
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+  padding: 0 10px;
+  float: right;
+  text-align: left;
+}
+#navmenu ul li a:hover
+{
+  color : white!important;
+}
+.navbar
+{
+  background:#82589F;
+}
+.navbar-toggler
+{
+  border:none !important;
+}
+.nav-link
+{
+  color: black !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+#navmenu .navbar .navbar-brand
+{
+	color: white;
+	font-weight: 600;
+}
+#jumbo
+{
+	width: 100%;
+	height: 10%;
+}
+.carousel-caption
+{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial !important;
+}
+.carousel-caption h1
+{
+  color: black;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  text-shadow: 2px 2px white;
+}
+.carousel-caption .btn
+{
+	background: transparent;
+	border-radius: 10px;
+	width:10%;
+	margin-right: 30px;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin-bottom: 30px;
+
+}
+.carousel-caption .btn:hover
+{
+	background: linear-gradient(90deg,#82589F,#D6A2E8);
+	color: purple;
+	text-shadow: 1px 1px white;
+}
+.carousel-caption #q
+{
+	margin-right: 30px;
+	text-shadow: 2px 2px black;
+}
+.carousel-caption h2
+{
+	text-shadow: 2px 2px red;
+}
+.carousel-caption hr
+{
+	color: white;
+	height: 50%;
+}
+#team
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: puple;
+}
+.container h1
+{
+	text-align: center;
+	color: #555 !important;
+	padding-bottom: 10px;
+}
+.container h1 ::after
+{
+	content: '';
+	background:black ;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px ayto 5px;
+}
+.container-fluid
+{
+	border: none;
+	outline: none;
+
+}
+.profile-pic
+{
+	margin-top: 25px;
+	border: none;
+	outline: none;
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	border-radius: 50px;
+}
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff !important;
+}
+#team .fa
+{
+	height: 25px;
+	width: 25px;
+	color: #007bff !important;
+	background: #fff;
+	padding : 4px;
+	border-radius: 50%;
+}
+.img-box ul
+{	
+	
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.img-box ul li
+{
+	padding: 5px;
+	display: inline-block;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul, .img-box ul li 
+{	
+	
+	transition: 0.5s;
+}
+
